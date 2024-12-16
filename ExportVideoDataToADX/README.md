@@ -131,7 +131,8 @@ To export the video index to Azure Data Explorer, using Azure Blobs, follow thes
 #### Configure the cluster ####
 
 - Browes to [https://dataexplorer.azure.com/](https://dataexplorer.azure.com/)
-- Run the KQL script in vi2adx.kql
+- Run the KQL script in vi2adx.kql 
+note: you will need database admin prevliges.
 - Set up system assigned managed identity:
   - Expend the Security + Networking on the left pane and select Identity.
   - Under System assigned change the status to "On" and click Save
